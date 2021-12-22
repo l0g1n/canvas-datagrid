@@ -28,6 +28,7 @@ const developmentConfig = {
       path.join(__dirname, 'dist'),
       path.join(__dirname, 'tutorials'),
     ],
+    publicPath: '/dist',
   },
 
   output: {

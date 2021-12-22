@@ -7,7 +7,7 @@
     <body>
         <div id="app">
             <!-- to get canvas-datagrid working in vue make sure you use the .prop attribute suffix -->
-            <canvas-datagrid v-bind.prop="grid"></canvas-datagrid>
+            <canvas-datagrid v-bind.prop="grid" v-if="bShow"></canvas-datagrid>
             <h2>Value of row 1 col 1: {{grid.data[0].col1}}</h2>
         </div>
         <ul>
